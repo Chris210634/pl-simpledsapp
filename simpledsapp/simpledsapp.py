@@ -25,6 +25,7 @@ class SimpleDSApp(ChrisApp):
     SELFPATH        = os.path.dirname(os.path.abspath(__file__))
     SELFEXEC        = os.path.basename(__file__)
     TITLE           = 'Simple chris ds app'
+    EXECSHELL       = 'python3'
     CATEGORY        = ''
     TYPE            = 'ds'
     DESCRIPTION     = 'A simple chris ds app demo'

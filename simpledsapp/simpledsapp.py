@@ -23,7 +23,7 @@ class SimpleDSApp(ChrisApp):
     """
     AUTHORS         = 'FNNDSC (dev@babyMRI.org)'
     SELFPATH        = os.path.dirname(os.path.abspath(__file__))
-    SELFEXEC        = os.path.basename(__file__)
+    SELFEXEC        = 'paralleldspp'
     TITLE           = 'Simple chris ds app'
     EXECSHELL       = 'python3'
     CATEGORY        = ''

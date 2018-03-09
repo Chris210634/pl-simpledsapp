@@ -92,8 +92,8 @@ class SimpleDSApp(ChrisApp):
         repres['selfpath'] = self.SELFPATH
         repres['selfexec'] = self.SELFEXEC
         repres['execshell'] = self.EXECSHELL
-        repres['max_number_of_wokers'] = self.MAX_NUMBER_OF_WORKERS
-        repres['min_number_of_wokers'] = self.MIN_NUMBER_OF_WORKERS
+        repres['max_number_of_workers'] = self.MAX_NUMBER_OF_WORKERS
+        repres['min_number_of_workers'] = self.MIN_NUMBER_OF_WORKERS
         repres['memory_limit'] = self.MEMORY_LIMIT
         repres['cpu_limit'] = self.CPU_LIMIT 
         return repres
